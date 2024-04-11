@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62aa3dad63718da4384ff6bafd0ae0f1, type: 3}
+  m_Name: WeatherMakerPerformanceProfile_Fastest
+  m_EditorClassIdentifier: 
+  EnableVolumetricClouds: 0
+  VolumetricCloudFlatLayerMask: -1
+  VolumetricCloudFlatLayerLod: 1
+  VolumetricCloudDownsampleScale: 2
+  VolumetricCloudTemporalReprojectionSize: 0
+  VolumetricCloudDownsampleScalePostProcess: 4
+  VolumetricCloudWeatherMapSize: 128
+  VolumetricCloudShadowTextureSize: 128
+  VolumetricCloudShadowSampleCount: 8
+  VolumetricCloudShadowLod: 1
+  VolumetricCloudSampleCount:
+    Minimum: 0
+    Maximum: 0
+  VolumetricCloudRaymarchMultiplier: 1.5
+  VolumetricCloudRayDither: 0.1
+  VolumetricCloudRaymarchMaybeInCloudStepMultiplier: 1
+  VolumetricCloudRaymarchInCloudStepMultiplier: 1
+  VolumetricCloudNoiseMultiplier: 1
+  VolumetricCloudAllowAnvils: 0
+  VolumetricCloudLod:
+    Minimum: -1
+    Maximum: 2
+  VolumetricCloudDirLightSampleCount: 0
+  VolumetricCloudDirLightSubSampleCount: 1
+  VolumetricCloudDirLightHorizonMultiplier: 1
+  VolumetricCloudDirLightStepMultiplier: 0.25
+  VolumetricCloudDirLightRadiusMultiplier: 1
+  VolumetricCloudLightDistantMultiplier: 0
+  VolumetricCloudAbsorptionMultiplier: 1
+  VolumetricCloudDirLightLod: 2
+  VolumetricCloudDirLightSampleDetails: 0
+  VolumetricCloudDirLightRaySampleCount: 0
+  VolumetricCloudDirLightRayDither: 0.1
+  VolumetricCloudDirLightRayFalloffMultiplier: 1
+  VolumetricCloudShadowDownsampleScale: 1
+  VolumetricCloudAllowReflections: 1
+  VolumetricCloudReflectionShadows: 0
+  VolumetricCloudShadowMapMinPower: 1
+  AtmosphereQuality: 0
+  AtmosphericLightShaftSampleCount: 0
+  AtmosphericLightShaftMaxRayLength: 100
+  AuroraSampleCount: 0
+  AuroraSubSampleCount: 0
+  EnablePrecipitationCollision: 0
+  EnablePerPixelLighting: 0
+  FogDownsampleScale: 2
+  FogDownsampleScaleFullScreenShafts: 0
+  FogTemporalReprojectionSize: 0
+  EnableFogLights: 0
+  FogFullScreenSunShaftSampleCount: 0
+  FogNoiseSampleCount: 0
+  FogShadowSampleCount: 0
+  WaterEnableCaustics: 0
+  WaterEnableRefraction: 0
+  WaterEnableFoam: 0
+  IgnoreReflectionProbes: 1
+  ReflectionTextureSize: 127
+  ReflectionShadows: 1
+  EnableTonemap: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0bfd706697ba5f4dbffaa81da551000, type: 3}
+  m_Name: WeatherMakerWindProfile_HeavyWind
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  WindSpeedRange:
+    Minimum: 20
+    Maximum: 30
+  AutoWindIntensity: 1
+  WindMaximumChangeRotation:
+    Minimum: 15
+    Maximum: 60
+  WindChangeRotationDurationPercent:
+    Minimum: 0.2
+    Maximum: 0.5
+  WindMainMultiplier: 0.02
+  WindTurbulenceRange:
+    Minimum: 0
+    Maximum: 8
+  WindPulseMagnitudeRange:
+    Minimum: 2
+    Maximum: 3
+  WindPulseFrequencyRange:
+    Minimum: 0.01
+    Maximum: 0.1
+  AllowBlowUp: 0
+  WindSoundMultiplier: 0.3
+  WindChangeInterval:
+    Minimum: 10
+    Maximum: 30
+  WindChangeDuration:
+    Minimum: 3
+    Maximum: 10
+  WindAudioClip: {fileID: 0}
+  FogVelocityMultiplier: 1

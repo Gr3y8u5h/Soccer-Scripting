@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2649350dac931d4286629cb4f7efa91, type: 3}
+  m_Name: WeatherMakerCloudNoiseProfile_CloudShadowDetail_Layer4
+  m_EditorClassIdentifier: 
+  NoiseType: 50
+  PerlinParameters:
+    Octaves: 6
+    Period: 6
+    Offset: 0
+    Brightness: 0
+    Multiplier: 1
+    Power: 4
+    Invert: 0
+  WorleyParameters:
+    Octaves: 6
+    Period: 4
+    Offset: 0
+    Brightness: 0
+    Multiplier: 1
+    Power: 5
+    Invert: 1

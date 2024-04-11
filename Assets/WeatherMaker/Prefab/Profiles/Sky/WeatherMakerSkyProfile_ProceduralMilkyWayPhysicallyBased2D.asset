@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9eda3b874b93d945855b4de30988992, type: 3}
+  m_Name: WeatherMakerSkyProfile_ProceduralMilkyWayPhysicallyBased2D
+  m_EditorClassIdentifier: 
+  AtmosphereProfile: {fileID: 11400000, guid: ec3cf702357c8304b8bb06c60763caef, type: 2}
+  SkyMode: 4
+  DitherLevel: 0.01
+  SkyDepthFadeStart: 0.9
+  SkyCameraHeightFadeMultiplier: 0.0002
+  SkyGradient:
+    serializedVersion: 2
+    key0: {r: 0.9411765, g: 0.5882353, b: 0.37254903, a: 1}
+    key1: {r: 0.9411765, g: 0.5870386, b: 0.37370244, a: 1}
+    key2: {r: 0.9764706, g: 0.9490196, b: 1, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 1, g: 1, b: 1, a: 0}
+    key5: {r: 1, g: 1, b: 1, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 20239
+    ctime1: 34716
+    ctime2: 42655
+    ctime3: 65535
+    ctime4: 65535
+    ctime5: 65535
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  SkyGroundGradient:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 0}
+    key1: {r: 0, g: 0, b: 0, a: 0}
+    key2: {r: 1, g: 1, b: 1, a: 1}
+    key3: {r: 1, g: 1, b: 1, a: 1}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 65535
+    ctime3: 65535
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 65535
+    atime3: 65535
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
+  DayTexture: {fileID: 0}
+  DawnDuskTexture: {fileID: 0}
+  NightTexture: {fileID: 2800000, guid: 8fc72e4a1d2fa1c4182c5c474a2de84f, type: 3}
+  NightVisibilityThreshold: 0
+  NightIntensity: 0.4
+  NightPower: 1
+  NightDuskMultiplier: 128
+  NightTwinkleSpeed: 11
+  NightTwinkleVariance: 0.1
+  NightTwinkleMinimum: 0.1
+  NightTwinkleRandomness: 1.15
+  NightFogColor: {r: 0.019607844, g: 0.015686275, b: 0.011764706, a: 1}
+  NightFogPower: 2
+  RotateAxis: {x: -0.3, y: 0.8, z: -0.3}
+  CheckForEclipse: 0
+  YOffsetMultiplier: 0.2
+  SkyExposure: 2
+  SkyTintColor: {r: 0.46502203, g: 0.44766435, b: 0.6764706, a: 1}
+  SkyOuterRadius: 1.025
+  SkyInnerRadius: 1.022
+  LightWaveLengths: {x: 0.65, y: 0.57, z: 0.475, w: 0.15}

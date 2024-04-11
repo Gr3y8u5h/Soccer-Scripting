@@ -1,0 +1,353 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d07c51bcd33344d895e123737a8c85, type: 3}
+  m_Name: WeatherMakerProfileGroup_Snow
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  Profiles:
+  - Name: Light Fog
+    Profile: {fileID: 11400000, guid: d5c7232d56ebd1d46aef18889985a425, type: 2}
+    Weight: 2
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Heavy Fog
+    Profile: {fileID: 11400000, guid: ad06c853d2fba5e4d9ba34a0babd6fa1, type: 2}
+    Weight: 3
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Medium Clouds
+    Profile: {fileID: 11400000, guid: 3e440d0af0f82f943aba087c8f5c0d4b, type: 2}
+    Weight: 3
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Light Clouds
+    Profile: {fileID: 11400000, guid: 3a98a40415376694cb6047ba45ff1c79, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Sunny
+    Profile: {fileID: 11400000, guid: 9aad5ff5dfa09ce468205f676714f891, type: 2}
+    Weight: 5
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Heavy Clouds Bright
+    Profile: {fileID: 11400000, guid: d3401f2a6bf59e44cbde668aa68c169b, type: 2}
+    Weight: 5
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Heavy Clouds
+    Profile: {fileID: 11400000, guid: a2f26b7a7c2262746826b3d807a1cbe7, type: 2}
+    Weight: 6
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Blizzard
+    Profile: {fileID: 11400000, guid: b996a85a65018db4d86c0610303c0c7e, type: 2}
+    Weight: 6
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Heavy Snow
+    Profile: {fileID: 11400000, guid: 40fea3ae04b51b74e90ecbc9dd765278, type: 2}
+    Weight: 10
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Medium Snow
+    Profile: {fileID: 11400000, guid: f8a60c0b27312514a8a49b67f5243644, type: 2}
+    Weight: 14
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Light Snow
+    Profile: {fileID: 11400000, guid: 3e29f59dfb5a2224db01bd082f3e05e0, type: 2}
+    Weight: 18
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Light Medium Clouds
+    Profile: {fileID: 11400000, guid: 1d1f2624630729d419df8b3ea2147ad3, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Medium Heavy Clouds
+    Profile: {fileID: 11400000, guid: 551b20222570b2246b8a8e75db073578, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Light Scattered Clouds
+    Profile: {fileID: 11400000, guid: 3f5bbf1d13698254d892f1740ad586f1, type: 2}
+    Weight: 3
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Light Medium Scattered Clouds
+    Profile: {fileID: 11400000, guid: bc8719566427f9f42988083dabea6541, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Medium Scattered Clouds
+    Profile: {fileID: 11400000, guid: e7b3584f23861ad428830788d0d660b3, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Medium Heavy Scattered Clouds
+    Profile: {fileID: 11400000, guid: a2d4b72488390f8418a050bc3faf0752, type: 2}
+    Weight: 7
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Heavy Scattered Clouds
+    Profile: {fileID: 11400000, guid: 48c10d06d1665574083647a4993d15c9, type: 2}
+    Weight: 3
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  - Name: Overcast Clouds
+    Profile: {fileID: 11400000, guid: 48c10d06d1665574083647a4993d15c9, type: 2}
+    Weight: 4
+    CloudProfile: {fileID: 0}
+    SkyProfile: {fileID: 0}
+    AuroraProfile: {fileID: 0}
+    PrecipitationProfile: {fileID: 0}
+    FogProfile: {fileID: 0}
+    WindProfile: {fileID: 0}
+    LightningProfile: {fileID: 0}
+    SoundProfile: {fileID: 0}
+    TransitionDuration:
+      Minimum: 0
+      Maximum: 0
+    HoldDuration:
+      Minimum: 0
+      Maximum: 0
+  CloudProfile: {fileID: 0}
+  SkyProfile: {fileID: 0}
+  AuroraProfile: {fileID: 0}
+  PrecipitationProfile: {fileID: 0}
+  FogProfile: {fileID: 0}
+  WindProfile: {fileID: 0}
+  LightningProfile: {fileID: 0}
+  SoundProfile: {fileID: 11400000, guid: 172ed4777a4f8b148b854d2a79e300f7, type: 2}
+  TransitionDuration:
+    Minimum: 0
+    Maximum: 0
+  HoldDuration:
+    Minimum: 0
+    Maximum: 0

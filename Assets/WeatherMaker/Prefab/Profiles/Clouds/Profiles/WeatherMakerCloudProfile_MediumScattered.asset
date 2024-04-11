@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba6d3094cf27f44781e52d9fd92adab, type: 3}
+  m_Name: WeatherMakerCloudProfile_MediumScattered
+  m_EditorClassIdentifier: 
+  CloudLayer1: {fileID: 11400000, guid: af68dbfbd2405f442be6895ed24411bb, type: 2}
+  CloudLayer2: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer3: {fileID: 11400000, guid: 2f55f6d4d5e7bef4daefe5602d970e03, type: 2}
+  CloudLayer4: {fileID: 11400000, guid: cacfdf0c12f0a6e4b90a13ca04a51a1f, type: 2}
+  CloudLayerVolumetric1: {fileID: 11400000, guid: 6a2b3eebba3f8cd44aa244d293ef24a4, type: 2}
+  DirectionalLightIntensityMultiplier: 1
+  DirectionalLightScatterMultiplier: 1
+  DirectionalLightAtmosphericShadow: 0.3
+  CloudLightStrength: 1
+  WeatherMapRenderTextureOverride: {fileID: 0}
+  WeatherMapRenderTextureMask: {fileID: 0}
+  WorldScale: 0.00001
+  NoiseScaleX:
+    Minimum: 1
+    Maximum: 1
+  NoiseScaleY:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudCoverageVelocity: {x: 50, y: 50, z: 0}
+  WeatherMapCloudCoverageNoiseType:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudCoverageScale:
+    Minimum: 32
+    Maximum: 64
+  WeatherMapCloudCoverageRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudCoverageAdder:
+    Minimum: -0.15
+    Maximum: -0.1
+  WeatherMapCloudCoveragePower:
+    Minimum: 2.5
+    Maximum: 3.5
+  WeatherMapCloudCoverageWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudCoverageWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudCoverageNegationVelocity: {x: 0, y: 0, z: 0}
+  WeatherMapCloudCoverageNegationScale:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudCoverageNegationRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudCoverageNegationAdder:
+    Minimum: -1
+    Maximum: -1
+  WeatherMapCloudCoverageNegationPower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudCoverageNegationWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudCoverageNegationWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudDensityVelocity: {x: 11, y: 15, z: 0}
+  WeatherMapCloudDensityNoiseType:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudDensityScale:
+    Minimum: 4
+    Maximum: 16
+  WeatherMapCloudDensityRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudDensityAdder:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudDensityPower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudDensityWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudDensityWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudDensityNegationVelocity: {x: 0, y: 0, z: 0}
+  WeatherMapCloudDensityNegationScale:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudDensityNegationRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudDensityNegationAdder:
+    Minimum: -1
+    Maximum: -1
+  WeatherMapCloudDensityNegationPower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudDensityNegationWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudDensityNegationWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudTypeVelocity: {x: 22, y: 55, z: 0}
+  WeatherMapCloudTypeNoiseType:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudTypeScale:
+    Minimum: 4
+    Maximum: 12
+  WeatherMapCloudTypeRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudTypeAdder:
+    Minimum: 0
+    Maximum: 0
+  WeatherMapCloudTypePower:
+    Minimum: 1
+    Maximum: 2
+  WeatherMapCloudTypeWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudTypeWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudTypeNegationVelocity: {x: 0, y: 0, z: 0}
+  WeatherMapCloudTypeNegationScale:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudTypeNegationRotation:
+    Minimum: -30
+    Maximum: 30
+  WeatherMapCloudTypeNegationAdder:
+    Minimum: -1
+    Maximum: -1
+  WeatherMapCloudTypeNegationPower:
+    Minimum: 1
+    Maximum: 1
+  WeatherMapCloudTypeNegationWarpMin: {x: 0, y: 0, z: 0, w: 0}
+  WeatherMapCloudTypeNegationWarpMax: {x: 0, y: 0, z: 0, w: 0}
+  CloudHeight:
+    Minimum: 1500
+    Maximum: 2000
+  CloudHeightTop:
+    Minimum: 4000
+    Maximum: 5000
+  CloudPlanetRadius: 6371000

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f4fb0832d64c84b9aaf5fe0c2d2427, type: 3}
+  m_Name: WeatherMakerProfile_HeavySnow
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  CloudProfile: {fileID: 11400000, guid: f1d10c517d7643142a86c9e83fc11033, type: 2}
+  SkyProfile: {fileID: 0}
+  AuroraProfile: {fileID: 0}
+  PrecipitationProfile: {fileID: 11400000, guid: b40e7db2b0743e2478a5bf36c896a14a, type: 2}
+  FogProfile: {fileID: 11400000, guid: f4cd03fe6f4e8fd46b3976431b218da4, type: 2}
+  WindProfile: {fileID: 11400000, guid: 2750c3288fe20a1429072c1fe33d6508, type: 2}
+  LightningProfile: {fileID: 11400000, guid: 6da0500dd15ebf04d9ad8fea05471e3b, type: 2}
+  SoundProfile: {fileID: 11400000, guid: 172ed4777a4f8b148b854d2a79e300f7, type: 2}
+  TransitionDuration:
+    Minimum: 0
+    Maximum: 0
+  HoldDuration:
+    Minimum: 0
+    Maximum: 0

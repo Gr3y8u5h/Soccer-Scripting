@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f96dc9195ad9554e909b5f928fa0165, type: 3}
+  m_Name: WeatherMakerAmbientSoundProfile
+  m_EditorClassIdentifier: 
+  Disabled: 0
+  Sounds:
+  - {fileID: 11400000, guid: baa06da73de9b0b4e8737e3e5238a4a9, type: 2}
